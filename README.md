@@ -2,7 +2,7 @@
 fits file for apogee selection function (including distance dependent selection due to extinction)
 
 
-Initially computed for and used in Frankel+19 'The inside-out growth of the Milky Way disk'
+Initially computed for and used in Frankel+19 'The inside-out growth of the Milky Way disk' only with apogee-1 disk fields. Expanded below to some fields from apogee-2.
 
 Provides a simple way and examples to deal with selection effects with most APOGEE disk fields (but not all)
 
