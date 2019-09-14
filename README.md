@@ -17,12 +17,14 @@ An example tutorial showing:
 - how to include the selection function in a density model
 - and fit this model to apogee data
 - how to sample stars in apogee fields (sort of efficiently)
+- where to find the literature this work is based on
 
 is available as a jupyter notebook in this repository at
 https://github.com/NeigeF/apogee_selection_function/blob/master/selection_function_ap1-2_publ.ipynb
 
 if the notebook does not render here, please visit:
 https://nbviewer.jupyter.org/github/NeigeF/apogee_selection_function/blob/master/selection_function_ap1-2_publ.ipynb
+
 
 
 
