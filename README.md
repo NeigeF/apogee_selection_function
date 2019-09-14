@@ -16,7 +16,7 @@ An example tutorial showing:
 - how to bring an apogee dataset down to the available selection function
 - how to include the selection function in a density model
 - and fit this model to apogee data
-- how to sample stars in apogee fields (sort of efficiently)
+- how to sample mock stars from a desnsity model in apogee fields (sort of efficiently)
 - where to find the literature this work is based on
 
 is available as a jupyter notebook in this repository at  <br />
