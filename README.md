@@ -7,7 +7,7 @@ Initially computed for and used in Frankel, Sanders, Rix, Ting (2019), The insid
 It provides a simple way with examples to deal with selection effects with most APOGEE disk fields (but not all)
 
 ## Data
-The file is available in this repository at\n
+The file is available in this repository at  <br />
 https://github.com/NeigeF/apogee_selection_function/blob/master/sf_apogee_dr14_disk.fits
 
 ## Tutorial
@@ -19,10 +19,10 @@ An example tutorial showing:
 - how to sample stars in apogee fields (sort of efficiently)
 - where to find the literature this work is based on
 
-is available as a jupyter notebook in this repository at\n
+is available as a jupyter notebook in this repository at  <br />
 https://github.com/NeigeF/apogee_selection_function/blob/master/selection_function_ap1-2_publ.ipynb
 
-if the notebook does not render here, please visit:\n
+if the notebook does not render here, please visit:  <br />
 https://nbviewer.jupyter.org/github/NeigeF/apogee_selection_function/blob/master/selection_function_ap1-2_publ.ipynb
 
 
