@@ -1,6 +1,5 @@
-# apogee_selection_function
+# Simplified APOGEE selection function
 fits file for apogee selection function (including distance dependent selection due to extinction)
-
 
 Initially computed for and used in Frankel, Sanders, Rix, Ting (2019), The inside-out growth of the Milky Way disk, only with apogee-1 disk fields. Expanded below to some fields from apogee-2.
 
