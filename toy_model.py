@@ -101,7 +101,7 @@ def interpolate_effective_selfunc(eff_frac, mag):
 
     """
     # find the corresponding values in magnitude
-    mag_c = np.linspace(-7, -1, 40)
+    mag_c = np.linspace(-5, -1, 27)
     diff = mag_c - mag
     m1 = diff <= 0
     i_less = np.sum(m1) - 1
