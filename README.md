@@ -11,6 +11,8 @@ The file is available in this repository at  <br />
 https://github.com/NeigeF/apogee_selection_function/blob/master/sf_apogee_dr14_disk.fits
 
 ## Tutorial
+
+#### Content
 An example tutorial showing:
 - how to load the file
 - how to bring an apogee dataset down to the available selection function
@@ -25,7 +27,7 @@ https://github.com/NeigeF/apogee_selection_function/blob/master/selection_functi
 if the notebook does not render here, please visit:  <br />
 https://nbviewer.jupyter.org/github/NeigeF/apogee_selection_function/blob/master/selection_function_ap1-2_publ.ipynb
 
-
-
+#### Authors
+Neige Frankel & Jason Sanders
 
 
