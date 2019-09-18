@@ -1,9 +1,9 @@
 # Simplified APOGEE selection function
-fits file for apogee selection function (including distance dependent selection due to extinction)
+We provide a pre-computed table for the APOGEE selection function (including distance dependent selection due to extinction) in the form of a fits file.
 
-Initially computed for and used in Frankel, Sanders, Rix, Ting (2019), The inside-out growth of the Milky Way disk, only with apogee-1 disk fields. Expanded below to some fields from apogee-2.
+This table was initially computed by Frankel, Sanders, Rix, Ting & Ness (2019) to characterise the inside-out growth of the Milky Way disk, using only APOGEE-1 disk fields. Since this, we have extended the calculation to some fields from APOGEE-2.
 
-It provides a simple way with examples to deal with selection effects with most APOGEE disk fields (but not all)
+It provides a simple way to deal with selection effects for most APOGEE disk fields (but not all). We provide details and examples below and in a jupyter notebook.
 
 ## Data
 The file is available in this repository at  <br />
@@ -12,21 +12,23 @@ https://github.com/NeigeF/apogee_selection_function/blob/master/sf_apogee_dr14_d
 ## Tutorial
 
 #### Content
-An example tutorial showing:
-- how to load the file
-- how to bring an apogee dataset down to the available selection function
-- how to include the selection function in a density model
-- and fit this model to apogee data
-- how to sample mock stars from a desnsity model in apogee fields (sort of efficiently)
-- where to find the literature this work is based on
+An example tutorial is available as a jupyter notebook in this repository at  <br />
+https://github.com/NeigeF/apogee_selection_function/blob/master/selection_function_ap1-2_publ.ipynb.
 
-is available as a jupyter notebook in this repository at  <br />
-https://github.com/NeigeF/apogee_selection_function/blob/master/selection_function_ap1-2_publ.ipynb
+The example covers
+- how to load the file,
+- how to use an APOGEE dataset down with the available selection function,
+- how to include the selection function in a density model,
+- how to fit this model to APOGEE red clump data,
+- how to sample mock stars from a density model in APOGEE fields (relatively efficiently),
+- details of the literature this work is based on.
 
-if the notebook does not render here, please visit:  <br />
+If the notebook does not render here, please visit:  <br />
 https://nbviewer.jupyter.org/github/NeigeF/apogee_selection_function/blob/master/selection_function_ap1-2_publ.ipynb
 
 #### Authors
-Neige Frankel & Jason Sanders
+Neige Frankel & Jason Sanders.
+
+Please cite Frankel, Sanders, Rix, Ting & Ness (2019) if you find this code useful in your research.
 
 
