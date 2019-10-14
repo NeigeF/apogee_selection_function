@@ -109,7 +109,7 @@ def make_cone_lbd(R, l_center, b_center, radius):
     """
     x, y, z = make_cone_xyz(R, l_center, b_center, radius)
     # l and b come out in degrees l [0,360], b[-90,90]
-    l, b, D = uf.convert_xyz_lbd(x, y, z)
+    l, b, D = convert_xyz_lbd(x, y, z)
     return l, b, D
 
 
