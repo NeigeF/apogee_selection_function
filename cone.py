@@ -20,7 +20,7 @@ def convert_xyz_lbd(x, y, z):
     b = np.arcsin(z/D)
     l = np.arctan2(y, x)
     [l, b] = np.degrees([l, b])
-    l = l + 180 #2*np.pi + l
+    l = l + 180 
     return l, b, D
 
 def generate_r(r_min, r_max, N):
