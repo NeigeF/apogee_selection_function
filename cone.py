@@ -4,7 +4,24 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
-import useful_functions as uf
+
+def convert_xyz_lbd(x, y, z):
+    """ 
+    convert yxz coordinates to galactic coordinates
+
+    arguments: x, y, z
+
+    returns: l, b, d (deg, deg, kpc)
+    
+    frankel 2018
+    """
+
+    D = np.sqrt(x*x + y*y + z*z)
+    b = np.arcsin(z/D)
+    l = np.arctan2(y, x)
+    [l, b] = np.degrees([l, b])
+    l = l + 180 #2*np.pi + l
+    return l, b, D
 
 def generate_r(r_min, r_max, N):
     u = np.random.rand(N)
